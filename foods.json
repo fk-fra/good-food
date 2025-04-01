@@ -167,6 +167,20 @@
     "category": "proteine",
     "calories": 158
   },
+    {
+    "name": "trota",
+    "rating": "ottimo",
+    "notes": "Pesce semi-grasso, ricco di Omega-3 e proteine (fresca).",
+    "category": "proteine",
+    "calories": 150
+  },
+  {
+    "name": "pesce grasso",
+    "rating": "ottimo",
+    "notes": "Ricco di calorie e Omega-3 (es. salmone, sgombro).",
+    "category": "proteine",
+    "calories": 200
+  },
   {
     "name": "cioccolato fondente",
     "rating": "ottimo",
@@ -363,10 +377,38 @@
     "category": "condimenti",
     "calories": 450
   },
+   {
+    "name": "pasta",
+    "rating": "buono",
+    "notes": "Fonte primaria di carboidrati, preferire integrale per più fibre (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 355
+  },
+  {
+    "name": "pasta di semola",
+    "rating": "buono",
+    "notes": "Fonte primaria di carboidrati, preferire integrale per più fibre (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 355
+  },
+   {
+    "name": "carne",
+    "rating": "buono",
+    "notes": "Importante fonte di proteine. Varia molto in base al tipo e taglio (media cruda).",
+    "category": "proteine",
+    "calories": 160
+  },
+  {
+    "name": "carne rossa",
+    "rating": "buono",
+    "notes": "Fonte di proteine e ferro. Varia in grassi. Moderare tagli grassi (media cruda).",
+    "category": "proteine",
+    "calories": 190
+  },
   {
     "name": "pollo",
     "rating": "buono",
-    "notes": "Proteine magre (petto, senza pelle, crudo).",
+    "notes": "Proteine magre (petto, senza pelle, crudo). Tagli più grassi (coscia con pelle) più calorici.",
     "category": "proteine",
     "calories": 110
   },
@@ -385,6 +427,13 @@
     "calories": 130
   },
   {
+    "name": "manzo",
+    "rating": "buono",
+    "notes": "Proteine e ferro. Tagli grassi (es. costata) sono più calorici (media cruda).",
+    "category": "proteine",
+    "calories": 210
+  },
+  {
     "name": "vitello",
     "rating": "buono",
     "notes": "Carne magra, fonte di proteine (es. fesa, cruda).",
@@ -397,6 +446,34 @@
     "notes": "Tagli come lombo/filetto, proteine (crudo).",
     "category": "proteine",
     "calories": 143
+  },
+   {
+    "name": "maiale",
+    "rating": "buono",
+    "notes": "Proteine. Tagli grassi (es. pancetta, costine) più calorici (lombo medio, crudo).",
+    "category": "proteine",
+    "calories": 240
+  },
+  {
+    "name": "agnello",
+    "rating": "buono",
+    "notes": "Ricco di proteine e nutrienti, spesso più grasso (costoletta cruda).",
+    "category": "proteine",
+    "calories": 250
+  },
+   {
+    "name": "pesce",
+    "rating": "ottimo",
+    "notes": "Fonte eccellente di proteine e spesso grassi sani (Omega-3). Varia molto (media cruda).",
+    "category": "proteine",
+    "calories": 140
+  },
+  {
+    "name": "pesce magro",
+    "rating": "buono",
+    "notes": "Ottima fonte di proteine, poche calorie (es. merluzzo, sogliola).",
+    "category": "proteine",
+    "calories": 90
   },
   {
     "name": "merluzzo",
@@ -446,6 +523,13 @@
     "notes": "Proteine comode (sgocciolato).",
     "category": "proteine",
     "calories": 116
+  },
+   {
+    "name": "tonno fresco",
+    "rating": "buono",
+    "notes": "Proteine e Omega-3 (attenzione al mercurio).",
+    "category": "proteine",
+    "calories": 144
   },
   {
     "name": "gamberetto",
@@ -747,6 +831,13 @@
     "notes": "Proteine, meno calorica (vaccina, ~5% grassi).",
     "category": "latticini",
     "calories": 138
+  },
+   {
+    "name": "ricotta",
+    "rating": "buono",
+    "notes": "Proteine e calcio (vaccina intera ~11% grassi).",
+    "category": "latticini",
+    "calories": 174
   },
   {
     "name": "mozzarella",
@@ -1357,6 +1448,27 @@
     "category": "erbe",
     "calories": 265
   },
+    {
+    "name": "crackers integrali",
+    "rating": "buono",
+    "notes": "Meglio dei bianchi, controllare grassi/sale.",
+    "category": "snack",
+    "calories": 420
+  },
+  {
+    "name": "fette biscottate integrali",
+    "rating": "buono",
+    "notes": "Fonte di fibre, controllare zuccheri.",
+    "category": "snack",
+    "calories": 390
+  },
+  {
+    "name": "biscotti integrali",
+    "rating": "buono",
+    "notes": "Secchi integrali (media).",
+    "category": "snack",
+    "calories": 430
+  },
   {
     "name": "miele",
     "rating": "moderato",
@@ -1442,25 +1554,11 @@
     "calories": 450
   },
   {
-    "name": "crackers integrali",
-    "rating": "buono",
-    "notes": "Meglio dei bianchi, controllare grassi/sale.",
-    "category": "snack",
-    "calories": 420
-  },
-  {
     "name": "fette biscottate",
     "rating": "moderato",
     "notes": "Dorate standard.",
     "category": "snack",
     "calories": 410
-  },
-  {
-    "name": "fette biscottate integrali",
-    "rating": "buono",
-    "notes": "Fonte di fibre, controllare zuccheri.",
-    "category": "snack",
-    "calories": 390
   },
   {
     "name": "bresaola",
@@ -1482,6 +1580,20 @@
     "notes": "Proteine ma molto salato (sgassato).",
     "category": "proteine",
     "calories": 230
+  },
+   {
+    "name": "salame",
+    "rating": "moderato",
+    "notes": "Molto calorico e grasso, alto contenuto di sale (tipo Milano).",
+    "category": "proteine",
+    "calories": 425
+  },
+  {
+    "name": "salsiccia",
+    "rating": "moderato",
+    "notes": "Calorica ma processata, alta in grassi e sale. Consumo occasionale (suino fresca, cruda).",
+    "category": "proteine",
+    "calories": 350
   },
   {
     "name": "fesa di tacchino",
@@ -1545,13 +1657,6 @@
     "notes": "Secchi tipo frollini (media).",
     "category": "snack",
     "calories": 450
-  },
-  {
-    "name": "biscotti integrali",
-    "rating": "buono",
-    "notes": "Secchi integrali (media).",
-    "category": "snack",
-    "calories": 430
   },
   {
     "name": "crostata",

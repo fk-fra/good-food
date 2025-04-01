@@ -1,19 +1,32 @@
-/* === CSS Esterno === */
+/* === CSS Esterno - Stile Moderno e Originale === */
+
+/* Import Fonts (Assicurati di averli inclusi nel tuo HTML, es. da Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap');
+
 :root {
-    --bg-color: #1a1a2e;
-    --primary-color: #0f3460;
-    --accent-color: #e94560; /* Colore per bottoni/link */
-    --text-color: #e0fbfc;
-    /* Colori per la valutazione */
-    --ottimo-color: #39ff14; /* Verde brillante per ⭐ */
-    --buono-color: #4dff8a; /* Ciano-verde per 👍 */
-    --moderato-color: #ffee33; /* Giallo per 🤔 */
-    --scarso-color: #ff9933; /* Arancio per 🍃 */
-    --sconosciuto-color: #ff1b6b; /* Rosso per ❓ */
-    --border-color: rgba(224, 251, 252, 0.3);
-    --placeholder-color: rgba(224, 251, 252, 0.5);
-    --suggestion-bg: rgba(26, 26, 46, 0.5);
-    --suggestion-highlight-color: var(--ottimo-color); /* Per evidenziare "Ricetta:" */
+    /* Palette Colori "Fresh Teal" */
+    --bg-color: #f4f7f6;         /* Sfondo (bianco leggermente caldo/verde) */
+    --primary-color: #ffffff;    /* Contenitore principale (bianco puro) */
+    --accent-color: #1abc9c;     /* Colore accento primario (Teal) */
+    --accent-darker-color: #16a085;/* Teal più scuro per hover/attivo */
+    --secondary-accent-color: #f39c12; /* Colore secondario (Arancio/Giallo) - es. per Moderato */
+    --text-color: #3d3d3d;       /* Testo principale (grigio scuro quasi nero) */
+    --text-light-color: #7f8c8d; /* Testo secondario/placeholder (grigio-azzurro) */
+    --border-color: #e1e8e7;     /* Bordi (grigio molto chiaro con tono verde) */
+    --input-bg-color: #ffffff;   /* Sfondo input */
+    --suggestion-bg: #e8f6f3;    /* Sfondo area suggerimenti (teal molto chiaro) */
+
+    /* Colori Valutazione (Coordinati con la palette) */
+    --ottimo-color: #2ecc71;     /* Verde Smeraldo */
+    --buono-color: var(--accent-color); /* Teal (per coerenza) */
+    --moderato-color: var(--secondary-accent-color); /* Giallo/Arancio secondario */
+    --scarso-color: #e74c3c;     /* Rosso Alizarin */
+    --sconosciuto-color: #95a5a6; /* Grigio nuvola (per sconosciuto) */
+
+    /* Altri */
+    --placeholder-color: var(--text-light-color);
+    --suggestion-highlight-color: var(--accent-darker-color); /* Teal scuro per highlight */
+    --link-hover-color: var(--accent-darker-color);
 }
 
 * {
@@ -23,25 +36,27 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif; /* Font corpo pulito */
     background-color: var(--bg-color);
     color: var(--text-color);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
+    line-height: 1.65; /* Leggibilità aumentata */
 }
 
 .app-container {
     background-color: var(--primary-color);
-    padding: 40px 50px;
-    border-radius: 15px;
+    padding: 45px 50px; /* Padding generoso */
+    border-radius: 8px;  /* Angoli leggermente meno arrotondati */
+    /* Border sottile invece di ombra pesante */
     border: 1px solid var(--border-color);
-    box-shadow: 0 0 25px rgba(57, 255, 20, 0.1);
+    box-shadow: 0 6px 20px rgba(69, 90, 100, 0.08); /* Ombra molto leggera e diffusa */
     text-align: center;
     width: 90%;
-    max-width: 600px;
+    max-width: 650px; /* Leggermente più largo */
     position: relative;
     overflow: hidden;
 }
@@ -50,157 +65,148 @@ body {
 .page-section {
      width: 100%;
      display: none;
-     animation: fadeIn 0.5s ease-out;
+     animation: slideFadeIn 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .page-section.active-section {
     display: block;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
+/* Animazione più fluida */
+@keyframes slideFadeIn {
+    from { opacity: 0; transform: translateY(15px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
 header h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Font titolo distintivo */
     color: var(--text-color);
     margin-bottom: 10px;
-    font-size: 2.5em;
-    letter-spacing: 2px;
-    text-shadow: 0 0 8px var(--ottimo-color);
+    font-size: 2.4em;
+    font-weight: 600; /* Semibold */
+    letter-spacing: -0.5px; /* Leggermente più compatto */
+    text-shadow: none;
 }
 
 header p {
     font-size: 1.1em;
-    margin-bottom: 30px;
-    color: rgba(224, 251, 252, 0.8);
+    margin-bottom: 40px; /* Spazio ampio */
+    color: var(--text-light-color);
+    max-width: 85%; /* Restringi leggermente per centrare l'attenzione */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* --- Stili Sezione Verifica --- */
 #verifier-section .input-area {
     margin-bottom: 30px;
+    position: relative; /* Per eventuale icona interna */
 }
 
 #food-input {
     width: 100%;
-    padding: 15px 20px;
-    font-size: 1.2em;
-    background-color: rgba(26, 26, 46, 0.8);
+    padding: 16px 20px; /* Padding verticale aumentato */
+    font-size: 1.15em;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--input-bg-color);
     border: 1px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: 6px; /* Angoli input */
     color: var(--text-color);
     outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    appearance: none; /* Rimuove stili default browser */
 }
 
 #food-input::placeholder {
     color: var(--placeholder-color);
+    font-style: normal; /* Placeholder non corsivo */
+    font-weight: 400;
 }
 
 #food-input:focus {
-    border-color: var(--ottimo-color);
-    box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(26, 188, 156, 0.15); /* Glow sottile con colore accento */
 }
 
 /* --- Stili per il Blocco Risultato con Calorie --- */
 .result {
-    min-height: 120px; /* Aumentata leggermente per le calorie */
+    min-height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
     opacity: 0;
-    transform: scale(0.5);
+    transform: translateY(10px); /* Animazione da sotto */
     transition: opacity 0.4s ease, transform 0.4s ease;
     text-align: center;
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: 1px solid transparent; /* Bordo placeholder */
+    background-color: var(--bg-color); /* Sfondo leggermente diverso per staccare */
 }
 
 .result.show {
     opacity: 1;
-    transform: scale(1);
+    transform: translateY(0);
+    border-color: var(--border-color); /* Mostra bordo quando visibile */
 }
 
 /* Stili per l'icona */
 .result-icon {
-    font-size: 4em; /* Leggermente ridotta per più spazio verticale */
-    font-weight: bold;
-    line-height: 1; /* Avvicina icona al testo */
+    font-size: 3.8em;
+    font-weight: 700; /* Più Bold */
+    line-height: 1;
     display: block;
-    margin-bottom: 8px; /* Spazio sotto l'icona */
+    margin-bottom: 12px;
+    text-shadow: none;
+    transition: color 0.3s ease; /* Transizione colore icona */
 }
 
 /* Stili per le note testuali */
 .result-notes {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.4;
-    max-width: 95%;
+    font-size: 1.1em;
+    font-weight: 500; /* Medium weight */
+    line-height: 1.5;
+    max-width: 90%;
     color: var(--text-color);
     font-style: normal;
-    margin-bottom: 8px; /* Spazio tra note e calorie */
+    margin-bottom: 8px;
 }
 
-/* NUOVO: Stile per le calorie */
+/* Stile per le calorie */
 .result-calories {
-    font-size: 0.85em;
-    font-weight: 300;
-    color: var(--placeholder-color); /* Colore tenue */
-    font-style: italic;
-    line-height: 1.2;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--text-light-color);
+    font-style: normal; /* Non corsivo */
+    line-height: 1.3;
 }
 
-/* Colori specifici per valutazione (applicati all'icona e alle note "ottimo") */
-.result.result-ottimo .result-icon {
-    color: var(--ottimo-color);
-    text-shadow: 0 0 15px var(--ottimo-color);
-}
-.result.result-ottimo .result-notes {
-    color: var(--ottimo-color);
-}
+/* Colori specifici per valutazione (applicati all'icona) */
+.result.result-ottimo .result-icon { color: var(--ottimo-color); }
+.result.result-buono .result-icon { color: var(--buono-color); }
+.result.result-moderato .result-icon { color: var(--moderato-color); }
+.result.result-scarso .result-icon { color: var(--scarso-color); }
+.result.result-sconosciuto .result-icon { color: var(--sconosciuto-color); }
 
-.result.result-buono .result-icon {
-    color: var(--buono-color);
-    text-shadow: 0 0 12px var(--buono-color);
-}
-
-.result.result-moderato .result-icon {
-    color: var(--moderato-color);
-    text-shadow: 0 0 10px var(--moderato-color);
-}
-.result.result-moderato .result-notes {
-     color: rgba(224, 251, 252, 0.9);
-}
-
-.result.result-scarso .result-icon {
-    color: var(--scarso-color);
-    text-shadow: 0 0 10px var(--scarso-color);
-}
-.result.result-scarso .result-notes {
-     color: rgba(224, 251, 252, 0.8);
-}
-
-.result.result-sconosciuto .result-icon {
-    color: var(--sconosciuto-color);
-    text-shadow: 0 0 10px var(--sconosciuto-color);
-}
+/* Colora anche le note Sconosciuto */
 .result.result-sconosciuto .result-notes {
      color: var(--sconosciuto-color);
-     font-style: italic;
 }
-/* Non applichiamo colori specifici alle calorie, rimangono tenui */
 /* --- Fine Stili Blocco Risultato --- */
 
 
 /* --- Stili Sezione Consigli --- */
  #suggestions-section header h1 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 #suggestions-section header p {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    max-width: 90%;
 }
 
 .meal-buttons {
@@ -208,54 +214,64 @@ header p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .meal-button {
-    padding: 12px 25px;
+    padding: 12px 28px; /* Padding bottone */
     font-size: 1em;
     background-color: var(--accent-color);
-    color: var(--text-color);
+    color: #ffffff;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px; /* Angoli */
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 1px;
+    transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    font-family: 'Poppins', sans-serif; /* Font titoli anche qui */
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-transform: none; /* Non maiuscolo */
+    box-shadow: 0 2px 5px rgba(26, 188, 156, 0.2); /* Ombra leggera del colore accento */
 }
 
 .meal-button:hover {
-    background-color: var(--ottimo-color);
-    color: var(--primary-color);
+    background-color: var(--accent-darker-color);
     transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(22, 160, 133, 0.3); /* Ombra più pronunciata al hover */
+}
+
+.meal-button:active {
+    transform: translateY(0px);
+    box-shadow: 0 1px 3px rgba(22, 160, 133, 0.2);
 }
 
 #suggestions-output {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 30px;
+    padding: 30px;
     background-color: var(--suggestion-bg);
     border-radius: 8px;
     border: 1px solid var(--border-color);
-    min-height: 150px;
+    min-height: 160px;
     text-align: left;
     color: var(--text-color);
-    transition: background-color 0.5s ease;
 }
 
 #suggestions-output .placeholder-text {
      text-align: center;
-     color: var(--placeholder-color);
-     padding-top: 20px;
+     color: var(--text-light-color);
+     padding: 40px 0;
      font-style: italic;
+     font-size: 1.05em;
 }
 
-
 #suggestions-output h3 { /* Titolo tipo pasto */
-    color: var(--buono-color);
-    margin-bottom: 15px;
-    font-family: 'Orbitron', sans-serif;
+    color: var(--accent-darker-color); /* Teal scuro */
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color); /* Linea separatrice */
+    padding-bottom: 10px;
 }
 
 #suggestions-output ul {
@@ -264,86 +280,100 @@ header p {
 }
 
 #suggestions-output li {
-    margin-bottom: 12px;
-    padding-left: 25px;
+    margin-bottom: 14px; /* Più spazio tra item */
+    padding-left: 30px; /* Spazio per icona/bullet */
     position: relative;
-    line-height: 1.6;
+    line-height: 1.7;
     font-size: 1.05em;
+    font-family: 'Inter', sans-serif;
 }
 
 #suggestions-output li::before {
-    content: '»';
+    content: ''; /* Rimuoviamo il bullet di testo */
     position: absolute;
     left: 5px;
-    top: 1px;
-    color: var(--accent-color);
-    font-weight: bold;
-    font-size: 1.2em;
+    top: 7px; /* Centrato verticalmente circa */
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color); /* Colore accento */
+    border-radius: 50%; /* Cerchio pieno */
+    /* Alternativa: icona SVG o carattere icona */
 }
 
 /* Stile per evidenziare "Ricetta:" */
 #suggestions-output strong {
-    color: var(--suggestion-highlight-color);
-    font-weight: bold;
+    color: var(--suggestion-highlight-color); /* Teal scuro */
+    font-weight: 600; /* Semibold */
 }
 
 
 /* --- Stili Comuni / Navigazione --- */
 footer {
     margin-top: 40px;
-    border-top: 1px dashed var(--border-color);
-    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 25px;
+    text-align: center; /* Centra il footer */
 }
 
 .tech-info {
-    font-size: 0.8em;
-    color: rgba(224, 251, 252, 0.6);
-    font-style: italic;
+    font-size: 0.9em;
+    color: var(--text-light-color);
+    font-style: normal;
 }
 
- /* Icona Aiuto / Link per cambiare sezione */
+ /* Icona Aiuto / Link per cambiare sezione - Stile più minimal */
 .help-icon-inline {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 35px;
-    height: 35px;
-    background-color: var(--accent-color);
-    color: var(--bg-color);
+    top: 25px;
+    right: 25px;
+    width: 36px;
+    height: 36px;
+    background-color: transparent; /* Sfondo trasparente */
+    color: var(--text-light-color); /* Colore grigio */
+    border: 1px solid var(--border-color); /* Bordo leggero */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     z-index: 10;
 }
 
 .help-icon-inline:hover {
-    transform: scale(1.1);
-    background-color: var(--ottimo-color);
-    color: var(--primary-color);
+    transform: scale(1.08) rotate(15deg); /* Leggera rotazione e scala */
+    background-color: var(--accent-color); /* Teal allo hover */
+    color: #ffffff; /* Testo bianco */
+    border-color: var(--accent-color);
 }
 
 .back-link {
-    display: inline-block;
+    display: inline-flex; /* Per allineare icona e testo */
+    align-items: center;
     margin-top: 30px;
     color: var(--accent-color);
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    font-size: 1.1em;
+    font-weight: 500; /* Medium */
+    transition: color 0.2s ease, transform 0.2s ease;
+    font-size: 1.05em;
     cursor: pointer;
+    gap: 6px; /* Spazio tra icona e testo */
+}
+
+.back-link::before {
+    content: '←'; /* Freccia standard */
+    font-size: 1.2em; /* Leggermente più grande */
+    line-height: 1;
 }
 
 .back-link:hover {
-    color: var(--ottimo-color);
+    color: var(--link-hover-color);
+    transform: translateX(-3px); /* Sposta leggermente a sinistra */
 }
 
 #suggestions-section footer .tech-info {
-    margin-top: 15px;
+    margin-top: 25px;
 }

@@ -7,36 +7,36 @@
     <link rel="stylesheet" href="style.css"> <!-- Collegamento al CSS esterno -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- *** FONT AGGIORNATI per stile moderno/originale *** -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
 
         <!-- === Sezione Verifica Cibo (Visibile Inizialmente) === -->
         <div id="verifier-section" class="page-section active-section">
-            <!-- Link/Bottone per andare ai Consigli -->
-            <a href="#" id="show-suggestions-link" class="help-icon-inline" title="Chiedi consigli sui pasti">?</a>
+            <!-- Link/Bottone per andare ai Consigli (con aria-label) -->
+            <a href="#" id="show-suggestions-link" class="help-icon-inline" title="Chiedi consigli sui pasti" aria-label="Vai alla sezione consigli sui pasti">?</a>
 
             <header>
                 <h1>Controllo Alimenti</h1>
-                <p>Inserisci un cibo per verificarne utilità e calorie per un sano aumento di peso</p> <!-- Testo aggiornato -->
+                <p>Inserisci un cibo per verificarne utilità e calorie per un sano aumento di peso</p>
             </header>
 
             <main>
                 <div class="input-area">
-                    <input type="text" id="food-input" placeholder="Scrivi un cibo qui...">
+                    <input type="text" id="food-input" placeholder="Scrivi un cibo qui..." aria-label="Inserisci il nome di un alimento">
                 </div>
-                <!-- === Struttura Risultato Modificata con Calorie === -->
-                <div id="result-display" class="result">
-                    <span class="result-icon"></span>   <!-- Per l'icona: ⭐, 👍, ecc. -->
-                    <p class="result-notes"></p>      <!-- Per la nota testuale -->
-                    <p class="result-calories"></p>   <!-- NUOVO: Per le calorie -->
+                <!-- Struttura Risultato (invariata, stilizzata da CSS) -->
+                <div id="result-display" class="result" aria-live="polite"> <!-- aria-live per annunciare il risultato -->
+                    <span class="result-icon"></span>
+                    <p class="result-notes"></p>
+                    <p class="result-calories"></p>
                 </div>
-                 <!-- ============================================= -->
             </main>
 
             <footer>
-                <p class="tech-info">// Sistema di valutazione v2.1 (con calorie)</p> <!-- Versione aggiornata -->
+                <p class="tech-info">// Sistema di valutazione v2.1 (con calorie)</p>
             </footer>
         </div>
 
@@ -54,15 +54,18 @@
                     <button class="meal-button" data-meal="merenda">Merenda</button>
                     <button class="meal-button" data-meal="cena">Cena</button>
                 </div>
-                <div id="suggestions-output">
+                <!-- Area Output Suggerimenti (con aria-live) -->
+                <div id="suggestions-output" aria-live="polite">
                     <p class="placeholder-text">Seleziona un pasto per visualizzare idee.</p>
+                    <!-- Qui verranno caricati dinamicamente i suggerimenti -->
                 </div>
             </main>
 
              <footer>
-                 <!-- Link/Bottone per tornare alla Verifica -->
-                 <a href="#" id="back-to-verifier-link" class="back-link">← Torna al Controllo Alimenti</a>
-                 <p class="tech-info" style="margin-top: 15px;">// Generatore Suggerimenti v1.2</p> <!-- Versione aggiornata -->
+                 <!-- Link/Bottone per tornare alla Verifica (con aria-label) -->
+                 <a href="#" id="back-to-verifier-link" class="back-link" aria-label="Torna alla sezione controllo alimenti">Torna al Controllo Alimenti</a>
+                 <!-- *** Rimosso stile inline *** -->
+                 <p class="tech-info">// Generatore Suggerimenti v1.2</p>
              </footer>
         </div>
 

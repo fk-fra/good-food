@@ -1,0 +1,1885 @@
+[
+  {
+    "name": "avocado",
+    "rating": "ottimo",
+    "notes": "Grassi sani e calorie.",
+    "category": "grassi sani",
+    "calories": 160
+  },
+  {
+    "name": "frutta secca",
+    "rating": "ottimo",
+    "notes": "Concentrato di energia e nutrienti (media ~600 kcal).",
+    "category": "frutta secca",
+    "calories": 600
+  },
+  {
+    "name": "mandorla",
+    "rating": "ottimo",
+    "notes": "Calorie, grassi buoni, proteine.",
+    "category": "frutta secca",
+    "calories": 579
+  },
+  {
+    "name": "mandorle",
+    "rating": "ottimo",
+    "notes": "Calorie, grassi buoni, proteine.",
+    "category": "frutta secca",
+    "calories": 579
+  },
+  {
+    "name": "noce",
+    "rating": "ottimo",
+    "notes": "Omega-3, calorie.",
+    "category": "frutta secca",
+    "calories": 654
+  },
+  {
+    "name": "noci",
+    "rating": "ottimo",
+    "notes": "Omega-3, calorie.",
+    "category": "frutta secca",
+    "calories": 654
+  },
+  {
+    "name": "nocciola",
+    "rating": "ottimo",
+    "notes": "Energia e grassi buoni.",
+    "category": "frutta secca",
+    "calories": 628
+  },
+  {
+    "name": "nocciole",
+    "rating": "ottimo",
+    "notes": "Energia e grassi buoni.",
+    "category": "frutta secca",
+    "calories": 628
+  },
+  {
+    "name": "arachide",
+    "rating": "ottimo",
+    "notes": "Proteine e grassi, energia (tostate).",
+    "category": "frutta secca",
+    "calories": 567
+  },
+  {
+    "name": "arachidi",
+    "rating": "ottimo",
+    "notes": "Proteine e grassi, energia (tostate).",
+    "category": "frutta secca",
+    "calories": 567
+  },
+  {
+    "name": "burro di arachidi",
+    "rating": "ottimo",
+    "notes": "Molto calorico, ottimo per aggiungere energia.",
+    "category": "grassi sani",
+    "calories": 590
+  },
+  {
+    "name": "pistacchio",
+    "rating": "ottimo",
+    "notes": "Nutrienti e calorie (sgusciati).",
+    "category": "frutta secca",
+    "calories": 560
+  },
+  {
+    "name": "pistacchi",
+    "rating": "ottimo",
+    "notes": "Nutrienti e calorie (sgusciati).",
+    "category": "frutta secca",
+    "calories": 560
+  },
+  {
+    "name": "pinoli",
+    "rating": "ottimo",
+    "notes": "Grassi buoni e minerali.",
+    "category": "frutta secca",
+    "calories": 673
+  },
+  {
+    "name": "anacardi",
+    "rating": "ottimo",
+    "notes": "Grassi buoni, magnesio, calorie.",
+    "category": "frutta secca",
+    "calories": 553
+  },
+  {
+    "name": "olio d'oliva",
+    "rating": "ottimo",
+    "notes": "Grassi sani, aggiungi ai piatti.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "olio evo",
+    "rating": "ottimo",
+    "notes": "Grassi sani, aggiungi ai piatti.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "olio extravergine d'oliva",
+    "rating": "ottimo",
+    "notes": "Grassi sani, aggiungi ai piatti.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "olio di cocco",
+    "rating": "ottimo",
+    "notes": "Grassi saturi, usare con moderazione ma calorico.",
+    "category": "grassi sani",
+    "calories": 862
+  },
+  {
+    "name": "olio di lino",
+    "rating": "ottimo",
+    "notes": "Omega-3, usare a crudo.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "salmone",
+    "rating": "ottimo",
+    "notes": "Proteine e grassi Omega-3 (fresco/medio).",
+    "category": "proteine",
+    "calories": 208
+  },
+  {
+    "name": "sgombro",
+    "rating": "ottimo",
+    "notes": "Pesce grasso ricco di Omega-3 (fresco).",
+    "category": "proteine",
+    "calories": 205
+  },
+  {
+    "name": "sardine",
+    "rating": "ottimo",
+    "notes": "Omega-3, calcio, proteine (sott'olio, sgocciolate).",
+    "category": "proteine",
+    "calories": 208
+  },
+  {
+    "name": "aringa",
+    "rating": "ottimo",
+    "notes": "Pesce grasso, Omega-3 (fresca).",
+    "category": "proteine",
+    "calories": 158
+  },
+  {
+    "name": "cioccolato fondente",
+    "rating": "ottimo",
+    "notes": "Min. 70%, antiossidanti e calorie (70-85%).",
+    "category": "snack",
+    "calories": 598
+  },
+  {
+    "name": "cioccolato",
+    "rating": "ottimo",
+    "notes": "Preferire fondente min. 70%. Varia molto.",
+    "category": "snack",
+    "calories": 550
+  },
+  {
+    "name": "uovo",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi (tuorlo!). Valore per 100g (circa 2 uova medie).",
+    "category": "proteine",
+    "calories": 155
+  },
+  {
+    "name": "uova",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi (tuorlo!). Valore per 100g.",
+    "category": "proteine",
+    "calories": 155
+  },
+  {
+    "name": "uova sode",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi. Valore per 100g.",
+    "category": "proteine",
+    "calories": 155
+  },
+  {
+    "name": "uovo sodo",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi. Valore per 100g.",
+    "category": "proteine",
+    "calories": 155
+  },
+  {
+    "name": "uova strapazzate",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi, cuocere con grassi sani (cal. indicative senza grassi aggiunti).",
+    "category": "proteine",
+    "calories": 150
+  },
+  {
+    "name": "uovo strapazzato",
+    "rating": "ottimo",
+    "notes": "Nutrienti completi, cuocere con grassi sani (cal. indicative senza grassi aggiunti).",
+    "category": "proteine",
+    "calories": 150
+  },
+  {
+    "name": "formaggio stagionato",
+    "rating": "ottimo",
+    "notes": "Calorico e ricco di calcio (media ~410 kcal/100g).",
+    "category": "latticini",
+    "calories": 410
+  },
+  {
+    "name": "parmigiano",
+    "rating": "ottimo",
+    "notes": "Molto nutriente e calorico, ottimo grattugiato.",
+    "category": "latticini",
+    "calories": 431
+  },
+  {
+    "name": "grana padano",
+    "rating": "ottimo",
+    "notes": "Simile al parmigiano, nutriente.",
+    "category": "latticini",
+    "calories": 398
+  },
+  {
+    "name": "pecorino",
+    "rating": "ottimo",
+    "notes": "Saporito, calorico (stagionato).",
+    "category": "latticini",
+    "calories": 400
+  },
+  {
+    "name": "yogurt greco",
+    "rating": "ottimo",
+    "notes": "Preferire intero (10% grassi), più calorico e proteico.",
+    "category": "latticini",
+    "calories": 130
+  },
+  {
+    "name": "banana",
+    "rating": "ottimo",
+    "notes": "Calorica tra la frutta, energia rapida.",
+    "category": "frutta",
+    "calories": 89
+  },
+  {
+    "name": "banane",
+    "rating": "ottimo",
+    "notes": "Calorica tra la frutta, energia rapida.",
+    "category": "frutta",
+    "calories": 89
+  },
+  {
+    "name": "dattero",
+    "rating": "ottimo",
+    "notes": "Zuccheri naturali e fibre, molto energetico (secchi).",
+    "category": "frutta",
+    "calories": 282
+  },
+  {
+    "name": "datteri",
+    "rating": "ottimo",
+    "notes": "Zuccheri naturali e fibre, molto energetico (secchi).",
+    "category": "frutta",
+    "calories": 282
+  },
+  {
+    "name": "cocco",
+    "rating": "ottimo",
+    "notes": "Grassi e calorie (polpa fresca).",
+    "category": "frutta",
+    "calories": 354
+  },
+  {
+    "name": "latte di cocco",
+    "rating": "ottimo",
+    "notes": "In lattina (full fat), molto calorico, per cucinare.",
+    "category": "bevande/grassi sani",
+    "calories": 230
+  },
+  {
+    "name": "patate dolci",
+    "rating": "ottimo",
+    "notes": "Carboidrati complessi e nutrienti (crude).",
+    "category": "cereali/tuberi",
+    "calories": 86
+  },
+  {
+    "name": "patata dolce",
+    "rating": "ottimo",
+    "notes": "Carboidrati complessi e nutrienti (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 86
+  },
+  {
+    "name": "semi di chia",
+    "rating": "ottimo",
+    "notes": "Fibre, omega-3, calorie.",
+    "category": "semi",
+    "calories": 486
+  },
+  {
+    "name": "semi di lino",
+    "rating": "ottimo",
+    "notes": "Fibre, omega-3.",
+    "category": "semi",
+    "calories": 534
+  },
+  {
+    "name": "semi di sesamo",
+    "rating": "ottimo",
+    "notes": "Calcio e grassi.",
+    "category": "semi",
+    "calories": 573
+  },
+  {
+    "name": "semi di girasole",
+    "rating": "ottimo",
+    "notes": "Vitamina E e grassi (sgusciati).",
+    "category": "semi",
+    "calories": 584
+  },
+  {
+    "name": "semi di zucca",
+    "rating": "ottimo",
+    "notes": "Magnesio e grassi (sgusciati).",
+    "category": "semi",
+    "calories": 559
+  },
+  {
+    "name": "semi oleosi",
+    "rating": "ottimo",
+    "notes": "Aggiungono calorie e nutrienti (media ~550 kcal).",
+    "category": "semi",
+    "calories": 550
+  },
+  {
+    "name": "pesto",
+    "rating": "ottimo",
+    "notes": "A base di olio, pinoli/noci, formaggio (varia molto).",
+    "category": "condimenti",
+    "calories": 450
+  },
+  {
+    "name": "pollo",
+    "rating": "buono",
+    "notes": "Proteine magre (petto, senza pelle, crudo).",
+    "category": "proteine",
+    "calories": 110
+  },
+  {
+    "name": "tacchino",
+    "rating": "buono",
+    "notes": "Proteine magre (petto, senza pelle, crudo).",
+    "category": "proteine",
+    "calories": 105
+  },
+  {
+    "name": "manzo magro",
+    "rating": "buono",
+    "notes": "Proteine e ferro (es. filetto, crudo).",
+    "category": "proteine",
+    "calories": 130
+  },
+  {
+    "name": "vitello",
+    "rating": "buono",
+    "notes": "Carne magra, fonte di proteine (es. fesa, cruda).",
+    "category": "proteine",
+    "calories": 115
+  },
+  {
+    "name": "maiale magro",
+    "rating": "buono",
+    "notes": "Tagli come lombo/filetto, proteine (crudo).",
+    "category": "proteine",
+    "calories": 143
+  },
+  {
+    "name": "merluzzo",
+    "rating": "buono",
+    "notes": "Pesce magro, fonte di proteine (fresco).",
+    "category": "proteine",
+    "calories": 82
+  },
+  {
+    "name": "platessa",
+    "rating": "buono",
+    "notes": "Pesce magro, fonte di proteine (fresca).",
+    "category": "proteine",
+    "calories": 91
+  },
+  {
+    "name": "sogliola",
+    "rating": "buono",
+    "notes": "Pesce magro, fonte di proteine (fresca).",
+    "category": "proteine",
+    "calories": 91
+  },
+  {
+    "name": "branzino",
+    "rating": "buono",
+    "notes": "Pesce semigrasso, buone proteine (fresco).",
+    "category": "proteine",
+    "calories": 97
+  },
+  {
+    "name": "orata",
+    "rating": "buono",
+    "notes": "Pesce semigrasso, buone proteine (fresca).",
+    "category": "proteine",
+    "calories": 121
+  },
+  {
+    "name": "pesce spada",
+    "rating": "buono",
+    "notes": "Proteine, attenzione al mercurio (fresco).",
+    "category": "proteine",
+    "calories": 121
+  },
+  {
+    "name": "tonno al naturale",
+    "rating": "buono",
+    "notes": "Proteine comode (sgocciolato).",
+    "category": "proteine",
+    "calories": 116
+  },
+  {
+    "name": "gamberetto",
+    "rating": "buono",
+    "notes": "Proteine magre (sgusciati, cotti).",
+    "category": "proteine",
+    "calories": 99
+  },
+  {
+    "name": "gamberetti",
+    "rating": "buono",
+    "notes": "Proteine magre (sgusciati, cotti).",
+    "category": "proteine",
+    "calories": 99
+  },
+  {
+    "name": "cozze",
+    "rating": "buono",
+    "notes": "Proteine, ferro, zinco (parte edibile, cotte).",
+    "category": "proteine",
+    "calories": 86
+  },
+  {
+    "name": "vongole",
+    "rating": "buono",
+    "notes": "Proteine, ferro (parte edibile, cotte).",
+    "category": "proteine",
+    "calories": 74
+  },
+  {
+    "name": "calamaro",
+    "rating": "buono",
+    "notes": "Proteine magre (crudo).",
+    "category": "proteine",
+    "calories": 92
+  },
+  {
+    "name": "calamari",
+    "rating": "buono",
+    "notes": "Proteine magre (crudo).",
+    "category": "proteine",
+    "calories": 92
+  },
+  {
+    "name": "seppia",
+    "rating": "buono",
+    "notes": "Proteine magre (cruda).",
+    "category": "proteine",
+    "calories": 79
+  },
+  {
+    "name": "seppie",
+    "rating": "buono",
+    "notes": "Proteine magre (cruda).",
+    "category": "proteine",
+    "calories": 79
+  },
+  {
+    "name": "polpo",
+    "rating": "buono",
+    "notes": "Proteine magre (crudo).",
+    "category": "proteine",
+    "calories": 82
+  },
+  {
+    "name": "lenticchia",
+    "rating": "buono",
+    "notes": "Proteine vegetali e fibre (secche).",
+    "category": "legumi",
+    "calories": 340
+  },
+  {
+    "name": "lenticchie",
+    "rating": "buono",
+    "notes": "Proteine vegetali e fibre (secche).",
+    "category": "legumi",
+    "calories": 340
+  },
+  {
+    "name": "cece",
+    "rating": "buono",
+    "notes": "Proteine vegetali e carboidrati (secchi).",
+    "category": "legumi",
+    "calories": 364
+  },
+  {
+    "name": "ceci",
+    "rating": "buono",
+    "notes": "Proteine vegetali e carboidrati (secchi).",
+    "category": "legumi",
+    "calories": 364
+  },
+  {
+    "name": "fagiolo",
+    "rating": "buono",
+    "notes": "Fibre e carboidrati (secchi, es. borlotti).",
+    "category": "legumi",
+    "calories": 335
+  },
+  {
+    "name": "fagioli",
+    "rating": "buono",
+    "notes": "Fibre e carboidrati (secchi, es. borlotti).",
+    "category": "legumi",
+    "calories": 335
+  },
+  {
+    "name": "piselli",
+    "rating": "buono",
+    "notes": "Legume più dolce, carboidrati e fibre (freschi/surgelati).",
+    "category": "legumi",
+    "calories": 81
+  },
+  {
+    "name": "fave",
+    "rating": "buono",
+    "notes": "Proteine vegetali e fibre (fresche sgusciate).",
+    "category": "legumi",
+    "calories": 88
+  },
+  {
+    "name": "lupini",
+    "rating": "buono",
+    "notes": "Snack proteico e fibroso (cotti/salamoia).",
+    "category": "legumi",
+    "calories": 120
+  },
+  {
+    "name": "riso integrale",
+    "rating": "buono",
+    "notes": "Carboidrati complessi e fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 360
+  },
+  {
+    "name": "riso venere",
+    "rating": "buono",
+    "notes": "Carboidrati e antiossidanti (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 356
+  },
+  {
+    "name": "riso rosso",
+    "rating": "buono",
+    "notes": "Carboidrati e fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 358
+  },
+  {
+    "name": "riso basmati integrale",
+    "rating": "buono",
+    "notes": "Carboidrati complessi (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 350
+  },
+  {
+    "name": "pasta integrale",
+    "rating": "buono",
+    "notes": "Carboidrati complessi (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 340
+  },
+  {
+    "name": "pane integrale",
+    "rating": "buono",
+    "notes": "Carboidrati e fibre.",
+    "category": "cereali/tuberi",
+    "calories": 245
+  },
+  {
+    "name": "pane di segale",
+    "rating": "buono",
+    "notes": "Ricco di fibre, saziante.",
+    "category": "cereali/tuberi",
+    "calories": 259
+  },
+  {
+    "name": "quinoa",
+    "rating": "buono",
+    "notes": "Proteine vegetali complete e carboidrati (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 368
+  },
+  {
+    "name": "farro",
+    "rating": "buono",
+    "notes": "Carboidrati e fibre (perlato, crudo).",
+    "category": "cereali/tuberi",
+    "calories": 338
+  },
+  {
+    "name": "orzo",
+    "rating": "buono",
+    "notes": "Carboidrati e fibre (perlato, crudo).",
+    "category": "cereali/tuberi",
+    "calories": 354
+  },
+  {
+    "name": "avena",
+    "rating": "buono",
+    "notes": "Fibre solubili e carboidrati (fiocchi).",
+    "category": "cereali/tuberi",
+    "calories": 375
+  },
+  {
+    "name": "grano saraceno",
+    "rating": "buono",
+    "notes": "Senza glutine, proteine e fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 343
+  },
+  {
+    "name": "miglio",
+    "rating": "buono",
+    "notes": "Senza glutine, minerali (decorticato, crudo).",
+    "category": "cereali/tuberi",
+    "calories": 378
+  },
+  {
+    "name": "amaranto",
+    "rating": "buono",
+    "notes": "Senza glutine, proteine (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 371
+  },
+  {
+    "name": "bulgur",
+    "rating": "buono",
+    "notes": "Grano spezzato, fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 342
+  },
+  {
+    "name": "couscous integrale",
+    "rating": "buono",
+    "notes": "Veloce da preparare, fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 351
+  },
+  {
+    "name": "polenta",
+    "rating": "buono",
+    "notes": "Farina di mais, carboidrati (istantanea, cruda).",
+    "category": "cereali/tuberi",
+    "calories": 380
+  },
+  {
+    "name": "patata",
+    "rating": "buono",
+    "notes": "Fonte di carboidrati (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 77
+  },
+  {
+    "name": "patate",
+    "rating": "buono",
+    "notes": "Fonte di carboidrati (crude).",
+    "category": "cereali/tuberi",
+    "calories": 77
+  },
+  {
+    "name": "latte",
+    "rating": "buono",
+    "notes": "Preferire intero, calcio e proteine (intero 3.5%).",
+    "category": "latticini",
+    "calories": 64
+  },
+  {
+    "name": "latte parzialmente scremato",
+    "rating": "buono",
+    "notes": "Meno calorico dell'intero (1.5% grassi).",
+    "category": "latticini",
+    "calories": 47
+  },
+  {
+    "name": "yogurt naturale",
+    "rating": "buono",
+    "notes": "Meglio intero, probiotici (intero bianco).",
+    "category": "latticini",
+    "calories": 65
+  },
+  {
+    "name": "kefir",
+    "rating": "buono",
+    "notes": "Latte fermentato, probiotici (base latte intero).",
+    "category": "latticini",
+    "calories": 60
+  },
+  {
+    "name": "fiocchi di latte",
+    "rating": "buono",
+    "notes": "Proteine, meno calorico (con panna ~4% grassi).",
+    "category": "latticini",
+    "calories": 98
+  },
+  {
+    "name": "ricotta magra",
+    "rating": "buono",
+    "notes": "Proteine, meno calorica (vaccina, ~5% grassi).",
+    "category": "latticini",
+    "calories": 138
+  },
+  {
+    "name": "mozzarella",
+    "rating": "buono",
+    "notes": "Proteine e grassi (vaccina, standard).",
+    "category": "latticini",
+    "calories": 280
+  },
+  {
+    "name": "feta",
+    "rating": "buono",
+    "notes": "Formaggio greco, saporito, moderare per sale.",
+    "category": "latticini",
+    "calories": 264
+  },
+  {
+    "name": "tofu",
+    "rating": "buono",
+    "notes": "Proteine vegetali (compatto).",
+    "category": "proteine",
+    "calories": 145
+  },
+  {
+    "name": "tempeh",
+    "rating": "buono",
+    "notes": "Proteine vegetali fermentate.",
+    "category": "proteine",
+    "calories": 192
+  },
+  {
+    "name": "seitan",
+    "rating": "buono",
+    "notes": "Proteine vegetali (glutine).",
+    "category": "proteine",
+    "calories": 120
+  },
+  {
+    "name": "mela",
+    "rating": "buono",
+    "notes": "Fibre e vitamine.",
+    "category": "frutta",
+    "calories": 52
+  },
+  {
+    "name": "mele",
+    "rating": "buono",
+    "notes": "Fibre e vitamine.",
+    "category": "frutta",
+    "calories": 52
+  },
+  {
+    "name": "pera",
+    "rating": "buono",
+    "notes": "Fibre e zuccheri naturali.",
+    "category": "frutta",
+    "calories": 57
+  },
+  {
+    "name": "pere",
+    "rating": "buono",
+    "notes": "Fibre e zuccheri naturali.",
+    "category": "frutta",
+    "calories": 57
+  },
+  {
+    "name": "arancia",
+    "rating": "buono",
+    "notes": "Vitamina C.",
+    "category": "frutta",
+    "calories": 47
+  },
+  {
+    "name": "arance",
+    "rating": "buono",
+    "notes": "Vitamina C.",
+    "category": "frutta",
+    "calories": 47
+  },
+  {
+    "name": "pompelmo",
+    "rating": "buono",
+    "notes": "Vitamina C, meno zuccherino.",
+    "category": "frutta",
+    "calories": 42
+  },
+  {
+    "name": "mandarino",
+    "rating": "buono",
+    "notes": "Simile all'arancia, pratico.",
+    "category": "frutta",
+    "calories": 53
+  },
+  {
+    "name": "clementine",
+    "rating": "buono",
+    "notes": "Dolci e facili da sbucciare.",
+    "category": "frutta",
+    "calories": 47
+  },
+  {
+    "name": "fragola",
+    "rating": "buono",
+    "notes": "Antiossidanti, poche calorie.",
+    "category": "frutta",
+    "calories": 32
+  },
+  {
+    "name": "fragole",
+    "rating": "buono",
+    "notes": "Antiossidanti, poche calorie.",
+    "category": "frutta",
+    "calories": 32
+  },
+  {
+    "name": "mirtillo",
+    "rating": "buono",
+    "notes": "Antiossidanti.",
+    "category": "frutta",
+    "calories": 57
+  },
+  {
+    "name": "mirtilli",
+    "rating": "buono",
+    "notes": "Antiossidanti.",
+    "category": "frutta",
+    "calories": 57
+  },
+  {
+    "name": "lampone",
+    "rating": "buono",
+    "notes": "Fibre e antiossidanti.",
+    "category": "frutta",
+    "calories": 52
+  },
+  {
+    "name": "lamponi",
+    "rating": "buono",
+    "notes": "Fibre e antiossidanti.",
+    "category": "frutta",
+    "calories": 52
+  },
+  {
+    "name": "mora",
+    "rating": "buono",
+    "notes": "Antiossidanti e fibre.",
+    "category": "frutta",
+    "calories": 43
+  },
+  {
+    "name": "more",
+    "rating": "buono",
+    "notes": "Antiossidanti e fibre.",
+    "category": "frutta",
+    "calories": 43
+  },
+  {
+    "name": "ribes",
+    "rating": "buono",
+    "notes": "Vitamina C e antiossidanti (rosso).",
+    "category": "frutta",
+    "calories": 56
+  },
+  {
+    "name": "kiwi",
+    "rating": "buono",
+    "notes": "Vitamina C e fibre.",
+    "category": "frutta",
+    "calories": 61
+  },
+  {
+    "name": "pesca",
+    "rating": "buono",
+    "notes": "Vitamine e acqua.",
+    "category": "frutta",
+    "calories": 39
+  },
+  {
+    "name": "pesche",
+    "rating": "buono",
+    "notes": "Vitamine e acqua.",
+    "category": "frutta",
+    "calories": 39
+  },
+  {
+    "name": "albicocca",
+    "rating": "buono",
+    "notes": "Vitamina A.",
+    "category": "frutta",
+    "calories": 48
+  },
+  {
+    "name": "albicocche",
+    "rating": "buono",
+    "notes": "Vitamina A.",
+    "category": "frutta",
+    "calories": 48
+  },
+  {
+    "name": "prugna",
+    "rating": "buono",
+    "notes": "Fibre (fresca).",
+    "category": "frutta",
+    "calories": 46
+  },
+  {
+    "name": "prugne",
+    "rating": "buono",
+    "notes": "Fibre (fresca).",
+    "category": "frutta",
+    "calories": 46
+  },
+  {
+    "name": "susina",
+    "rating": "buono",
+    "notes": "Fibre (fresca).",
+    "category": "frutta",
+    "calories": 46
+  },
+  {
+    "name": "susine",
+    "rating": "buono",
+    "notes": "Fibre (fresca).",
+    "category": "frutta",
+    "calories": 46
+  },
+  {
+    "name": "ciliegia",
+    "rating": "buono",
+    "notes": "Antiossidanti, zuccheri naturali.",
+    "category": "frutta",
+    "calories": 63
+  },
+  {
+    "name": "ciliegie",
+    "rating": "buono",
+    "notes": "Antiossidanti, zuccheri naturali.",
+    "category": "frutta",
+    "calories": 63
+  },
+  {
+    "name": "uva",
+    "rating": "buono",
+    "notes": "Zuccheri naturali, energia (bianca/nera).",
+    "category": "frutta",
+    "calories": 69
+  },
+  {
+    "name": "melone",
+    "rating": "buono",
+    "notes": "Idratante (cantalupo).",
+    "category": "frutta",
+    "calories": 34
+  },
+  {
+    "name": "meloni",
+    "rating": "buono",
+    "notes": "Idratante.",
+    "category": "frutta",
+    "calories": 34
+  },
+  {
+    "name": "anguria",
+    "rating": "buono",
+    "notes": "Molto idratante, meno densa.",
+    "category": "frutta",
+    "calories": 30
+  },
+  {
+    "name": "ananas",
+    "rating": "buono",
+    "notes": "Enzimi digestivi.",
+    "category": "frutta",
+    "calories": 50
+  },
+  {
+    "name": "mango",
+    "rating": "buono",
+    "notes": "Vitamine e zuccheri.",
+    "category": "frutta",
+    "calories": 60
+  },
+  {
+    "name": "papaya",
+    "rating": "buono",
+    "notes": "Vitamine ed enzimi.",
+    "category": "frutta",
+    "calories": 43
+  },
+  {
+    "name": "fico",
+    "rating": "buono",
+    "notes": "Molto energetico (fresco).",
+    "category": "frutta",
+    "calories": 74
+  },
+  {
+    "name": "fichi",
+    "rating": "buono",
+    "notes": "Molto energetici (freschi).",
+    "category": "frutta",
+    "calories": 74
+  },
+  {
+    "name": "melograno",
+    "rating": "buono",
+    "notes": "Ricco di antiossidanti (semi/arilli).",
+    "category": "frutta",
+    "calories": 83
+  },
+  {
+    "name": "melagrana",
+    "rating": "buono",
+    "notes": "Ricco di antiossidanti (semi/arilli).",
+    "category": "frutta",
+    "calories": 83
+  },
+  {
+    "name": "broccoli",
+    "rating": "buono",
+    "notes": "Vitamine e fibre (crudi).",
+    "category": "verdura",
+    "calories": 34
+  },
+  {
+    "name": "spinaci",
+    "rating": "buono",
+    "notes": "Ferro e vitamine (crudi).",
+    "category": "verdura",
+    "calories": 23
+  },
+  {
+    "name": "carota",
+    "rating": "buono",
+    "notes": "Vitamina A (cruda).",
+    "category": "verdura",
+    "calories": 41
+  },
+  {
+    "name": "carote",
+    "rating": "buono",
+    "notes": "Vitamina A (crude).",
+    "category": "verdura",
+    "calories": 41
+  },
+  {
+    "name": "pomodoro",
+    "rating": "buono",
+    "notes": "Licopene (crudo).",
+    "category": "verdura",
+    "calories": 18
+  },
+  {
+    "name": "pomodori",
+    "rating": "buono",
+    "notes": "Licopene (crudi).",
+    "category": "verdura",
+    "calories": 18
+  },
+  {
+    "name": "zucchina",
+    "rating": "buono",
+    "notes": "Acqua e fibre (cruda).",
+    "category": "verdura",
+    "calories": 17
+  },
+  {
+    "name": "zucchine",
+    "rating": "buono",
+    "notes": "Acqua e fibre (crude).",
+    "category": "verdura",
+    "calories": 17
+  },
+  {
+    "name": "peperone",
+    "rating": "buono",
+    "notes": "Vitamina C (crudo, rosso).",
+    "category": "verdura",
+    "calories": 31
+  },
+  {
+    "name": "peperoni",
+    "rating": "buono",
+    "notes": "Vitamina C (crudi, rossi).",
+    "category": "verdura",
+    "calories": 31
+  },
+  {
+    "name": "melanzana",
+    "rating": "buono",
+    "notes": "Fibre (cruda).",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "melanzane",
+    "rating": "buono",
+    "notes": "Fibre (crude).",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "funghi",
+    "rating": "buono",
+    "notes": "Minerali (champignon, crudi).",
+    "category": "verdura",
+    "calories": 22
+  },
+  {
+    "name": "fungo",
+    "rating": "buono",
+    "notes": "Minerali (champignon, crudi).",
+    "category": "verdura",
+    "calories": 22
+  },
+  {
+    "name": "zucca",
+    "rating": "buono",
+    "notes": "Fibre e vitamine (gialla, cruda).",
+    "category": "verdura",
+    "calories": 26
+  },
+  {
+    "name": "cavolfiore",
+    "rating": "buono",
+    "notes": "Fibre e vitamine (crudo).",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "cavolo",
+    "rating": "buono",
+    "notes": "Vitamine e fibre (cappuccio verde, crudo).",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "cavoletti di bruxelles",
+    "rating": "buono",
+    "notes": "Fibre e vitamine (crudi).",
+    "category": "verdura",
+    "calories": 43
+  },
+  {
+    "name": "verza",
+    "rating": "buono",
+    "notes": "Ricca di vitamina C e K (cruda).",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "bietole",
+    "rating": "buono",
+    "notes": "Vitamine e minerali (coste, crude).",
+    "category": "verdura",
+    "calories": 19
+  },
+  {
+    "name": "asparagi",
+    "rating": "buono",
+    "notes": "Diuretici, vitamine (crudi).",
+    "category": "verdura",
+    "calories": 20
+  },
+  {
+    "name": "asparago",
+    "rating": "buono",
+    "notes": "Diuretico, vitamine (crudo).",
+    "category": "verdura",
+    "calories": 20
+  },
+  {
+    "name": "carciofi",
+    "rating": "buono",
+    "notes": "Fibre, depurativi per il fegato (crudi).",
+    "category": "verdura",
+    "calories": 47
+  },
+  {
+    "name": "carciofo",
+    "rating": "buono",
+    "notes": "Fibre, depurativo (crudo).",
+    "category": "verdura",
+    "calories": 47
+  },
+  {
+    "name": "finocchio",
+    "rating": "buono",
+    "notes": "Digestivo, fibre (crudo).",
+    "category": "verdura",
+    "calories": 31
+  },
+  {
+    "name": "finocchi",
+    "rating": "buono",
+    "notes": "Digestivi, fibre (crudi).",
+    "category": "verdura",
+    "calories": 31
+  },
+  {
+    "name": "porro",
+    "rating": "buono",
+    "notes": "Sapore delicato, simile cipolla (crudo).",
+    "category": "verdura",
+    "calories": 61
+  },
+  {
+    "name": "porri",
+    "rating": "buono",
+    "notes": "Sapore delicato (crudi).",
+    "category": "verdura",
+    "calories": 61
+  },
+  {
+    "name": "barbabietola",
+    "rating": "buono",
+    "notes": "Zuccherina tra le verdure, ferro (cruda).",
+    "category": "verdura",
+    "calories": 43
+  },
+  {
+    "name": "barbabietole",
+    "rating": "buono",
+    "notes": "Zuccherine, ferro (crude).",
+    "category": "verdura",
+    "calories": 43
+  },
+  {
+    "name": "rapa",
+    "rating": "buono",
+    "notes": "Radice, fibre (cruda).",
+    "category": "verdura",
+    "calories": 28
+  },
+  {
+    "name": "rape",
+    "rating": "buono",
+    "notes": "Radici, fibre (crude).",
+    "category": "verdura",
+    "calories": 28
+  },
+  {
+    "name": "fagiolini",
+    "rating": "buono",
+    "notes": "Verdura simile ai legumi, fibre (crudi).",
+    "category": "verdura",
+    "calories": 31
+  },
+  {
+    "name": "aglio",
+    "rating": "buono",
+    "notes": "Aromatizzante, benefici vari.",
+    "category": "verdura",
+    "calories": 149
+  },
+  {
+    "name": "cipolla",
+    "rating": "buono",
+    "notes": "Aromatizzante, fibre.",
+    "category": "verdura",
+    "calories": 40
+  },
+  {
+    "name": "scalogno",
+    "rating": "buono",
+    "notes": "Via di mezzo tra aglio e cipolla.",
+    "category": "verdura",
+    "calories": 72
+  },
+  {
+    "name": "basilico",
+    "rating": "buono",
+    "notes": "Aroma, antiossidanti.",
+    "category": "erbe",
+    "calories": 23
+  },
+  {
+    "name": "prezzemolo",
+    "rating": "buono",
+    "notes": "Aroma, vitamina C.",
+    "category": "erbe",
+    "calories": 36
+  },
+  {
+    "name": "rosmarino",
+    "rating": "buono",
+    "notes": "Aroma, antiossidanti.",
+    "category": "erbe",
+    "calories": 131
+  },
+  {
+    "name": "menta",
+    "rating": "buono",
+    "notes": "Aroma rinfrescante.",
+    "category": "erbe",
+    "calories": 44
+  },
+  {
+    "name": "salvia",
+    "rating": "buono",
+    "notes": "Aroma intenso.",
+    "category": "erbe",
+    "calories": 315
+  },
+  {
+    "name": "origano",
+    "rating": "buono",
+    "notes": "Aroma mediterraneo (secco).",
+    "category": "erbe",
+    "calories": 265
+  },
+  {
+    "name": "miele",
+    "rating": "moderato",
+    "notes": "Zucchero semplice, usare con parsimonia.",
+    "category": "dolcificanti",
+    "calories": 304
+  },
+  {
+    "name": "sciroppo d'acero",
+    "rating": "moderato",
+    "notes": "Zucchero naturale, meno processato.",
+    "category": "dolcificanti",
+    "calories": 260
+  },
+  {
+    "name": "marmellata",
+    "rating": "moderato",
+    "notes": "Controllare % frutta e zuccheri aggiunti.",
+    "category": "dolcificanti/snack",
+    "calories": 250
+  },
+  {
+    "name": "composta di frutta",
+    "rating": "moderato",
+    "notes": "Controllare zuccheri (spesso meno della marmellata).",
+    "category": "snack",
+    "calories": 180
+  },
+  {
+    "name": "riso basmati",
+    "rating": "moderato",
+    "notes": "Carboidrati semplici (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 365
+  },
+  {
+    "name": "riso",
+    "rating": "moderato",
+    "notes": "Bianco generico (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 360
+  },
+  {
+    "name": "pasta fresca",
+    "rating": "moderato",
+    "notes": "All'uovo (cruda).",
+    "category": "cereali/tuberi",
+    "calories": 280
+  },
+  {
+    "name": "gnocchi",
+    "rating": "moderato",
+    "notes": "Di patate (confezionati).",
+    "category": "cereali/tuberi",
+    "calories": 150
+  },
+  {
+    "name": "couscous",
+    "rating": "moderato",
+    "notes": "Semola di grano (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 376
+  },
+  {
+    "name": "piadina",
+    "rating": "moderato",
+    "notes": "Spesso con strutto/grassi (media).",
+    "category": "cereali/tuberi",
+    "calories": 340
+  },
+  {
+    "name": "pane bianco",
+    "rating": "moderato",
+    "notes": "Poche fibre, scarso valore nutritivo.",
+    "category": "cereali/tuberi",
+    "calories": 265
+  },
+  {
+    "name": "crackers",
+    "rating": "moderato",
+    "notes": "Standard, salati.",
+    "category": "snack",
+    "calories": 450
+  },
+  {
+    "name": "crackers integrali",
+    "rating": "buono",
+    "notes": "Meglio dei bianchi, controllare grassi/sale.",
+    "category": "snack",
+    "calories": 420
+  },
+  {
+    "name": "fette biscottate",
+    "rating": "moderato",
+    "notes": "Dorate standard.",
+    "category": "snack",
+    "calories": 410
+  },
+  {
+    "name": "fette biscottate integrali",
+    "rating": "buono",
+    "notes": "Fonte di fibre, controllare zuccheri.",
+    "category": "snack",
+    "calories": 390
+  },
+  {
+    "name": "bresaola",
+    "rating": "moderato",
+    "notes": "Proteine magre ma alto contenuto di sale.",
+    "category": "proteine",
+    "calories": 151
+  },
+  {
+    "name": "prosciutto cotto magro",
+    "rating": "moderato",
+    "notes": "Proteine ma processato e salato.",
+    "category": "proteine",
+    "calories": 135
+  },
+  {
+    "name": "prosciutto crudo magro",
+    "rating": "moderato",
+    "notes": "Proteine ma molto salato (sgassato).",
+    "category": "proteine",
+    "calories": 230
+  },
+  {
+    "name": "fesa di tacchino",
+    "rating": "moderato",
+    "notes": "Affettato processato, controllare sale/additivi.",
+    "category": "proteine",
+    "calories": 110
+  },
+  {
+    "name": "wurstel",
+    "rating": "moderato",
+    "notes": "Molto processato, ricco di grassi/sale (tipo suino).",
+    "category": "proteine",
+    "calories": 300
+  },
+  {
+    "name": "scamorza",
+    "rating": "moderato",
+    "notes": "Formaggio a pasta filata, grassi (bianca).",
+    "category": "latticini",
+    "calories": 330
+  },
+  {
+    "name": "provola",
+    "rating": "moderato",
+    "notes": "Simile alla scamorza, affumicata o dolce.",
+    "category": "latticini",
+    "calories": 315
+  },
+  {
+    "name": "ricotta salata",
+    "rating": "moderato",
+    "notes": "Saporita, ma molto salata.",
+    "category": "latticini",
+    "calories": 280
+  },
+  {
+    "name": "galletta",
+    "rating": "moderato",
+    "notes": "Di riso soffiato.",
+    "category": "snack",
+    "calories": 380
+  },
+  {
+    "name": "gallette",
+    "rating": "moderato",
+    "notes": "Di riso soffiato.",
+    "category": "snack",
+    "calories": 380
+  },
+  {
+    "name": "popcorn",
+    "rating": "moderato",
+    "notes": "Fatto ad aria, senza grassi/sale.",
+    "category": "snack",
+    "calories": 387
+  },
+  {
+    "name": "biscotti",
+    "rating": "moderato",
+    "notes": "Secchi tipo frollini (media).",
+    "category": "snack",
+    "calories": 450
+  },
+  {
+    "name": "biscotti integrali",
+    "rating": "buono",
+    "notes": "Secchi integrali (media).",
+    "category": "snack",
+    "calories": 430
+  },
+  {
+    "name": "crostata",
+    "rating": "moderato",
+    "notes": "Con marmellata (media).",
+    "category": "dolci",
+    "calories": 400
+  },
+  {
+    "name": "torta",
+    "rating": "moderato",
+    "notes": "Tipo margherita/paradiso (media).",
+    "category": "dolci",
+    "calories": 370
+  },
+  {
+    "name": "budino",
+    "rating": "moderato",
+    "notes": "Al cioccolato (tipo pronto).",
+    "category": "dolci",
+    "calories": 130
+  },
+  {
+    "name": "gelato",
+    "rating": "moderato",
+    "notes": "Alle creme (media).",
+    "category": "dolci",
+    "calories": 200
+  },
+  {
+    "name": "yogurt alla frutta",
+    "rating": "moderato",
+    "notes": "Spesso con molti zuccheri aggiunti (intero).",
+    "category": "latticini",
+    "calories": 95
+  },
+  {
+    "name": "latte scremato",
+    "rating": "moderato",
+    "notes": "Meno calorie e grassi (0.1% grassi).",
+    "category": "latticini",
+    "calories": 34
+  },
+  {
+    "name": "yogurt magro",
+    "rating": "moderato",
+    "notes": "Meno calorico (bianco 0.1% grassi).",
+    "category": "latticini",
+    "calories": 45
+  },
+  {
+    "name": "albume",
+    "rating": "moderato",
+    "notes": "Solo proteine, mancano nutrienti del tuorlo.",
+    "category": "proteine",
+    "calories": 52
+  },
+  {
+    "name": "albumi",
+    "rating": "moderato",
+    "notes": "Solo proteine, mancano nutrienti del tuorlo.",
+    "category": "proteine",
+    "calories": 52
+  },
+  {
+    "name": "olio di semi di girasole",
+    "rating": "moderato",
+    "notes": "Ricco di Omega-6, preferire EVO.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "olio di mais",
+    "rating": "moderato",
+    "notes": "Come olio di girasole.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "maionese",
+    "rating": "moderato",
+    "notes": "Molto grassa, usare con parsimonia (standard).",
+    "category": "condimenti",
+    "calories": 700
+  },
+  {
+    "name": "ketchup",
+    "rating": "moderato",
+    "notes": "Spesso ricco di zuccheri/sale.",
+    "category": "condimenti",
+    "calories": 112
+  },
+  {
+    "name": "tè",
+    "rating": "moderato",
+    "notes": "Bevanda ok, non calorica (senza zucchero).",
+    "category": "bevande",
+    "calories": 1
+  },
+  {
+    "name": "tisana",
+    "rating": "moderato",
+    "notes": "Bevanda ok, non calorica (senza zucchero).",
+    "category": "bevande",
+    "calories": 1
+  },
+  {
+    "name": "infuso",
+    "rating": "moderato",
+    "notes": "Bevanda ok, non calorica (senza zucchero).",
+    "category": "bevande",
+    "calories": 1
+  },
+  {
+    "name": "caffè d'orzo",
+    "rating": "moderato",
+    "notes": "Bevanda non calorica (solubile senza zucchero).",
+    "category": "bevande",
+    "calories": 5
+  },
+  {
+    "name": "caffè",
+    "rating": "moderato",
+    "notes": "Stimolante, non calorico (espresso senza zucchero).",
+    "category": "bevande",
+    "calories": 2
+  },
+  {
+    "name": "latte vegetale",
+    "rating": "moderato",
+    "notes": "Media, varia molto (es. Avena non zuccherato).",
+    "category": "bevande",
+    "calories": 45
+  },
+  {
+    "name": "latte di mandorla",
+    "rating": "moderato",
+    "notes": "Spesso poco calorico (non zuccherato).",
+    "category": "bevande",
+    "calories": 25
+  },
+  {
+    "name": "latte di riso",
+    "rating": "moderato",
+    "notes": "Principalmente zuccheri (non zuccherato).",
+    "category": "bevande",
+    "calories": 50
+  },
+  {
+    "name": "latte di avena",
+    "rating": "moderato",
+    "notes": "Carboidrati (non zuccherato).",
+    "category": "bevande",
+    "calories": 45
+  },
+  {
+    "name": "latte di soia",
+    "rating": "moderato",
+    "notes": "Buona fonte proteica vegetale (non zuccherato).",
+    "category": "bevande",
+    "calories": 40
+  },
+  {
+    "name": "succo di frutta",
+    "rating": "moderato",
+    "notes": "Molti zuccheri (media 100% frutta).",
+    "category": "bevande",
+    "calories": 45
+  },
+  {
+    "name": "vino",
+    "rating": "moderato",
+    "notes": "Calorie da alcol, consumo limitato (rosso medio).",
+    "category": "bevande",
+    "calories": 85
+  },
+  {
+    "name": "birra",
+    "rating": "moderato",
+    "notes": "Calorie da alcol e carboidrati (lager media).",
+    "category": "bevande",
+    "calories": 43
+  },
+  {
+    "name": "cetriolo",
+    "rating": "scarso",
+    "notes": "Molta acqua, poche calorie.",
+    "category": "verdura",
+    "calories": 15
+  },
+  {
+    "name": "cetrioli",
+    "rating": "scarso",
+    "notes": "Molta acqua, poche calorie.",
+    "category": "verdura",
+    "calories": 15
+  },
+  {
+    "name": "insalata",
+    "rating": "scarso",
+    "notes": "Volume, poche calorie (lattuga iceberg).",
+    "category": "verdura",
+    "calories": 14
+  },
+  {
+    "name": "lattuga",
+    "rating": "scarso",
+    "notes": "Volume, poche calorie (romana).",
+    "category": "verdura",
+    "calories": 17
+  },
+  {
+    "name": "rucola",
+    "rating": "scarso",
+    "notes": "Volume, poche calorie.",
+    "category": "verdura",
+    "calories": 25
+  },
+  {
+    "name": "radicchio",
+    "rating": "scarso",
+    "notes": "Volume, poche calorie (rosso).",
+    "category": "verdura",
+    "calories": 23
+  },
+  {
+    "name": "indivia",
+    "rating": "scarso",
+    "notes": "Amarognola, poche calorie.",
+    "category": "verdura",
+    "calories": 17
+  },
+  {
+    "name": "sedano",
+    "rating": "scarso",
+    "notes": "Molta acqua e fibre, poche calorie.",
+    "category": "verdura",
+    "calories": 16
+  },
+  {
+    "name": "acqua",
+    "rating": "scarso",
+    "notes": "Essenziale, ma zero calorie.",
+    "category": "bevande",
+    "calories": 0
+  },
+  {
+    "name": "acqua frizzante",
+    "rating": "scarso",
+    "notes": "Come l'acqua.",
+    "category": "bevande",
+    "calories": 0
+  },
+  {
+    "name": "limone",
+    "rating": "scarso",
+    "notes": "Vitamina C, ma acido e non calorico.",
+    "category": "frutta",
+    "calories": 29
+  },
+  {
+    "name": "limoni",
+    "rating": "scarso",
+    "notes": "Vitamina C, ma acido e non calorico.",
+    "category": "frutta",
+    "calories": 29
+  },
+  {
+    "name": "lime",
+    "rating": "scarso",
+    "notes": "Come il limone.",
+    "category": "frutta",
+    "calories": 30
+  },
+  {
+    "name": "aceto",
+    "rating": "scarso",
+    "notes": "Condimento non calorico (di vino).",
+    "category": "condimenti",
+    "calories": 18
+  },
+  {
+    "name": "spezie",
+    "rating": "scarso",
+    "notes": "Aroma, non caloriche (in piccole quantità).",
+    "category": "condimenti",
+    "calories": 5
+  },
+  {
+    "name": "sale",
+    "rating": "scarso",
+    "notes": "Nessuna caloria, da usare con moderazione.",
+    "category": "condimenti",
+    "calories": 0
+  },
+  {
+    "name": "bevande light/zero",
+    "rating": "scarso",
+    "notes": "Dolcificanti artificiali, non nutrienti.",
+    "category": "bevande",
+    "calories": 1
+  },
+  {
+    "name": "gomme da masticare",
+    "rating": "scarso",
+    "notes": "Senza zucchero, non nutrienti.",
+    "category": "snack",
+    "calories": 2
+  },
+  {
+    "name": "caramelle",
+    "rating": "scarso",
+    "notes": "Principalmente zucchero (dure).",
+    "category": "dolci",
+    "calories": 380
+  },
+  {
+    "name": "merendine confezionate",
+    "rating": "scarso",
+    "notes": "Povere di nutrienti, ricche di zuccheri/grassi (media).",
+    "category": "snack",
+    "calories": 420
+  },
+  {
+    "name": "patatine fritte",
+    "rating": "scarso",
+    "notes": "(Sacchetto) Molti grassi/sale.",
+    "category": "snack",
+    "calories": 530
+  }
+]

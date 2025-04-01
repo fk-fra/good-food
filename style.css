@@ -1,0 +1,349 @@
+/* === CSS Esterno === */
+:root {
+    --bg-color: #1a1a2e;
+    --primary-color: #0f3460;
+    --accent-color: #e94560; /* Colore per bottoni/link */
+    --text-color: #e0fbfc;
+    /* Colori per la valutazione */
+    --ottimo-color: #39ff14; /* Verde brillante per ⭐ */
+    --buono-color: #4dff8a; /* Ciano-verde per 👍 */
+    --moderato-color: #ffee33; /* Giallo per 🤔 */
+    --scarso-color: #ff9933; /* Arancio per 🍃 */
+    --sconosciuto-color: #ff1b6b; /* Rosso per ❓ */
+    --border-color: rgba(224, 251, 252, 0.3);
+    --placeholder-color: rgba(224, 251, 252, 0.5);
+    --suggestion-bg: rgba(26, 26, 46, 0.5);
+    --suggestion-highlight-color: var(--ottimo-color); /* Per evidenziare "Ricetta:" */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app-container {
+    background-color: var(--primary-color);
+    padding: 40px 50px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 25px rgba(57, 255, 20, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Sezioni per gestire le "pagine" */
+.page-section {
+     width: 100%;
+     display: none;
+     animation: fadeIn 0.5s ease-out;
+}
+
+.page-section.active-section {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px var(--ottimo-color);
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: rgba(224, 251, 252, 0.8);
+}
+
+/* --- Stili Sezione Verifica --- */
+#verifier-section .input-area {
+    margin-bottom: 30px;
+}
+
+#food-input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    background-color: rgba(26, 26, 46, 0.8);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#food-input::placeholder {
+    color: var(--placeholder-color);
+}
+
+#food-input:focus {
+    border-color: var(--ottimo-color);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
+/* --- Stili per il Blocco Risultato con Calorie --- */
+.result {
+    min-height: 120px; /* Aumentata leggermente per le calorie */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    text-align: center;
+}
+
+.result.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Stili per l'icona */
+.result-icon {
+    font-size: 4em; /* Leggermente ridotta per più spazio verticale */
+    font-weight: bold;
+    line-height: 1; /* Avvicina icona al testo */
+    display: block;
+    margin-bottom: 8px; /* Spazio sotto l'icona */
+}
+
+/* Stili per le note testuali */
+.result-notes {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 95%;
+    color: var(--text-color);
+    font-style: normal;
+    margin-bottom: 8px; /* Spazio tra note e calorie */
+}
+
+/* NUOVO: Stile per le calorie */
+.result-calories {
+    font-size: 0.85em;
+    font-weight: 300;
+    color: var(--placeholder-color); /* Colore tenue */
+    font-style: italic;
+    line-height: 1.2;
+}
+
+/* Colori specifici per valutazione (applicati all'icona e alle note "ottimo") */
+.result.result-ottimo .result-icon {
+    color: var(--ottimo-color);
+    text-shadow: 0 0 15px var(--ottimo-color);
+}
+.result.result-ottimo .result-notes {
+    color: var(--ottimo-color);
+}
+
+.result.result-buono .result-icon {
+    color: var(--buono-color);
+    text-shadow: 0 0 12px var(--buono-color);
+}
+
+.result.result-moderato .result-icon {
+    color: var(--moderato-color);
+    text-shadow: 0 0 10px var(--moderato-color);
+}
+.result.result-moderato .result-notes {
+     color: rgba(224, 251, 252, 0.9);
+}
+
+.result.result-scarso .result-icon {
+    color: var(--scarso-color);
+    text-shadow: 0 0 10px var(--scarso-color);
+}
+.result.result-scarso .result-notes {
+     color: rgba(224, 251, 252, 0.8);
+}
+
+.result.result-sconosciuto .result-icon {
+    color: var(--sconosciuto-color);
+    text-shadow: 0 0 10px var(--sconosciuto-color);
+}
+.result.result-sconosciuto .result-notes {
+     color: var(--sconosciuto-color);
+     font-style: italic;
+}
+/* Non applichiamo colori specifici alle calorie, rimangono tenui */
+/* --- Fine Stili Blocco Risultato --- */
+
+
+/* --- Stili Sezione Consigli --- */
+ #suggestions-section header h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+#suggestions-section header p {
+    margin-bottom: 25px;
+}
+
+.meal-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.meal-button {
+    padding: 12px 25px;
+    font-size: 1em;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+
+.meal-button:hover {
+    background-color: var(--ottimo-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+#suggestions-output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--suggestion-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    min-height: 150px;
+    text-align: left;
+    color: var(--text-color);
+    transition: background-color 0.5s ease;
+}
+
+#suggestions-output .placeholder-text {
+     text-align: center;
+     color: var(--placeholder-color);
+     padding-top: 20px;
+     font-style: italic;
+}
+
+
+#suggestions-output h3 { /* Titolo tipo pasto */
+    color: var(--buono-color);
+    margin-bottom: 15px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#suggestions-output ul {
+    list-style: none;
+    padding: 0;
+}
+
+#suggestions-output li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.6;
+    font-size: 1.05em;
+}
+
+#suggestions-output li::before {
+    content: '»';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Stile per evidenziare "Ricetta:" */
+#suggestions-output strong {
+    color: var(--suggestion-highlight-color);
+    font-weight: bold;
+}
+
+
+/* --- Stili Comuni / Navigazione --- */
+footer {
+    margin-top: 40px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 15px;
+}
+
+.tech-info {
+    font-size: 0.8em;
+    color: rgba(224, 251, 252, 0.6);
+    font-style: italic;
+}
+
+ /* Icona Aiuto / Link per cambiare sezione */
+.help-icon-inline {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.help-icon-inline:hover {
+    transform: scale(1.1);
+    background-color: var(--ottimo-color);
+    color: var(--primary-color);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.back-link:hover {
+    color: var(--ottimo-color);
+}
+
+#suggestions-section footer .tech-info {
+    margin-top: 15px;
+}

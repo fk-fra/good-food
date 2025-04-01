@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Alimentare</title>
+    <link rel="stylesheet" href="style.css"> <!-- Collegamento al CSS esterno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- === Sezione Verifica Cibo (Visibile Inizialmente) === -->
+        <div id="verifier-section" class="page-section active-section">
+            <!-- Link/Bottone per andare ai Consigli -->
+            <a href="#" id="show-suggestions-link" class="help-icon-inline" title="Chiedi consigli sui pasti">?</a>
+
+            <header>
+                <h1>Controllo Alimenti</h1>
+                <p>Inserisci un cibo per verificarne utilità e calorie per un sano aumento di peso</p> <!-- Testo aggiornato -->
+            </header>
+
+            <main>
+                <div class="input-area">
+                    <input type="text" id="food-input" placeholder="Scrivi un cibo qui...">
+                </div>
+                <!-- === Struttura Risultato Modificata con Calorie === -->
+                <div id="result-display" class="result">
+                    <span class="result-icon"></span>   <!-- Per l'icona: ⭐, 👍, ecc. -->
+                    <p class="result-notes"></p>      <!-- Per la nota testuale -->
+                    <p class="result-calories"></p>   <!-- NUOVO: Per le calorie -->
+                </div>
+                 <!-- ============================================= -->
+            </main>
+
+            <footer>
+                <p class="tech-info">// Sistema di valutazione v2.1 (con calorie)</p> <!-- Versione aggiornata -->
+            </footer>
+        </div>
+
+        <!-- === Sezione Consigli (Nascosta Inizialmente) === -->
+        <div id="suggestions-section" class="page-section">
+             <header>
+                <h1>Consigli Pasti</h1>
+                <p>Scegli un pasto per ricevere suggerimenti bilanciati</p>
+            </header>
+
+            <main>
+                <div class="meal-buttons">
+                    <button class="meal-button" data-meal="colazione">Colazione</button>
+                    <button class="meal-button" data-meal="pranzo">Pranzo</button>
+                    <button class="meal-button" data-meal="merenda">Merenda</button>
+                    <button class="meal-button" data-meal="cena">Cena</button>
+                </div>
+                <div id="suggestions-output">
+                    <p class="placeholder-text">Seleziona un pasto per visualizzare idee.</p>
+                </div>
+            </main>
+
+             <footer>
+                 <!-- Link/Bottone per tornare alla Verifica -->
+                 <a href="#" id="back-to-verifier-link" class="back-link">← Torna al Controllo Alimenti</a>
+                 <p class="tech-info" style="margin-top: 15px;">// Generatore Suggerimenti v1.2</p> <!-- Versione aggiornata -->
+             </footer>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script> <!-- Collegamento al JS esterno -->
+</body>
+</html>

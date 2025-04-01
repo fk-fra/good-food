@@ -405,6 +405,13 @@
     "category": "proteine",
     "calories": 190
   },
+   {
+    "name": "carne bianca",
+    "rating": "buono",
+    "notes": "Fonte di proteine magre (es. pollo, tacchino petto).",
+    "category": "proteine",
+    "calories": 110
+  },
   {
     "name": "pollo",
     "rating": "buono",
@@ -593,6 +600,167 @@
     "notes": "Proteine magre (crudo).",
     "category": "proteine",
     "calories": 82
+  },
+    {
+    "name": "acciuga",
+    "rating": "buono",
+    "notes": "Omega-3, proteine, sapore intenso (fresca). Sott'olio più calorica.",
+    "category": "proteine",
+    "calories": 131
+  },
+  {
+    "name": "alice",
+    "rating": "buono",
+    "notes": "Sinonimo di acciuga. Omega-3, proteine (fresca).",
+    "category": "proteine",
+    "calories": 131
+  },
+  {
+    "name": "anguilla",
+    "rating": "ottimo",
+    "notes": "Molto grassa e calorica, Omega-3 (affumicata/arrosto).",
+    "category": "proteine",
+    "calories": 300
+  },
+  {
+    "name": "baccalà",
+    "rating": "buono",
+    "notes": "Merluzzo salato e essiccato, reidratato. Proteico, attenzione al sale.",
+    "category": "proteine",
+    "calories": 80
+  },
+  {
+    "name": "stoccafisso",
+    "rating": "buono",
+    "notes": "Merluzzo essiccato, reidratato. Molto proteico.",
+    "category": "proteine",
+    "calories": 80
+  },
+  {
+    "name": "cernia",
+    "rating": "buono",
+    "notes": "Pesce magro, proteine di qualità.",
+    "category": "proteine",
+    "calories": 92
+  },
+  {
+    "name": "dentice",
+    "rating": "buono",
+    "notes": "Pesce pregiato, carni magre e sode.",
+    "category": "proteine",
+    "calories": 100
+  },
+  {
+    "name": "halibut",
+    "rating": "buono",
+    "notes": "Pesce piatto grande, carni bianche, Omega-3.",
+    "category": "proteine",
+    "calories": 110
+  },
+  {
+    "name": "luccio",
+    "rating": "buono",
+    "notes": "Pesce d'acqua dolce, magro, proteine.",
+    "category": "proteine",
+    "calories": 88
+  },
+  {
+    "name": "ombrina",
+    "rating": "buono",
+    "notes": "Pesce semigrasso, carni saporite.",
+    "category": "proteine",
+    "calories": 115
+  },
+  {
+    "name": "pagello",
+    "rating": "buono",
+    "notes": "Simile all'orata, pesce semigrasso.",
+    "category": "proteine",
+    "calories": 110
+  },
+  {
+    "name": "pesce persico",
+    "rating": "buono",
+    "notes": "Pesce d'acqua dolce, magro e delicato.",
+    "category": "proteine",
+    "calories": 91
+  },
+  {
+    "name": "pesce san pietro",
+    "rating": "buono",
+    "notes": "Pesce pregiato, carni bianche e magre.",
+    "category": "proteine",
+    "calories": 83
+  },
+  {
+    "name": "rana pescatrice",
+    "rating": "buono",
+    "notes": "(Coda di Rospo) Carne soda e magra.",
+    "category": "proteine",
+    "calories": 76
+  },
+  {
+    "name": "rombo",
+    "rating": "buono",
+    "notes": "Pesce piatto pregiato, carni sode.",
+    "category": "proteine",
+    "calories": 95
+  },
+  {
+    "name": "sarago",
+    "rating": "buono",
+    "notes": "Pesce comune nel Mediterraneo, semigrasso.",
+    "category": "proteine",
+    "calories": 120
+  },
+  {
+    "name": "scorfano",
+    "rating": "buono",
+    "notes": "Ottimo per zuppe, carni saporite.",
+    "category": "proteine",
+    "calories": 90
+  },
+  {
+    "name": "triglia",
+    "rating": "buono",
+    "notes": "Piccolo pesce saporito, semigrasso.",
+    "category": "proteine",
+    "calories": 125
+  },
+  {
+    "name": "ostrica",
+    "rating": "buono",
+    "notes": "Ricca di zinco e minerali (cruda).",
+    "category": "proteine",
+    "calories": 60
+  },
+  {
+    "name": "capasanta",
+    "rating": "buono",
+    "notes": "Mollusco pregiato, proteine magre (parte bianca).",
+    "category": "proteine",
+    "calories": 88
+  },
+  {
+    "name": "granchio",
+    "rating": "buono",
+    "notes": "Carne delicata, proteine (polpa cotta).",
+    "category": "proteine",
+    "calories": 87
+  },
+  {
+    "name": "astice",
+    "rating": "buono",
+    "notes": "Crostaceo pregiato, proteine magre (polpa cotta).",
+    "category": "proteine",
+    "calories": 90
+  },
+  {
+    "name": "aragosta",
+    "rating": "buono",
+    "notes": "Simile all'astice, proteine magre (polpa cotta).",
+    "category": "proteine",
+    "calories": 90
   },
   {
     "name": "lenticchia",
@@ -873,6 +1041,223 @@
     "notes": "Proteine vegetali (glutine).",
     "category": "proteine",
     "calories": 120
+  },
+    {
+    "name": "mascarpone",
+    "rating": "ottimo",
+    "notes": "Molto grasso e calorico, per dolci o condimenti.",
+    "category": "latticini",
+    "calories": 430
+  },
+  {
+    "name": "tahini",
+    "rating": "ottimo",
+    "notes": "(Crema di sesamo) Grassi sani, calcio, calorie.",
+    "category": "grassi sani",
+    "calories": 595
+  },
+  {
+    "name": "burro di mandorle",
+    "rating": "ottimo",
+    "notes": "Calorico, grassi buoni, proteine.",
+    "category": "grassi sani",
+    "calories": 614
+  },
+  {
+    "name": "burro di anacardi",
+    "rating": "ottimo",
+    "notes": "Calorico, grassi buoni, cremoso.",
+    "category": "grassi sani",
+    "calories": 590
+  },
+  {
+    "name": "fichi secchi",
+    "rating": "ottimo",
+    "notes": "Concentrato di zuccheri naturali, fibre e calorie.",
+    "category": "frutta secca",
+    "calories": 250
+  },
+  {
+    "name": "prugne secche",
+    "rating": "ottimo",
+    "notes": "Fibre, zuccheri naturali, energia.",
+    "category": "frutta secca",
+    "calories": 240
+  },
+  {
+    "name": "albicocche secche",
+    "rating": "ottimo",
+    "notes": "Concentrato di nutrienti e zuccheri.",
+    "category": "frutta secca",
+    "calories": 241
+  },
+  {
+    "name": "uvetta",
+    "rating": "ottimo",
+    "notes": "Zuccheri naturali concentrati, energia rapida.",
+    "category": "frutta secca",
+    "calories": 299
+  },
+  {
+    "name": "granola",
+    "rating": "ottimo",
+    "notes": "Mix energetico, controllare zuccheri/grassi aggiunti (media fatta in casa/buona).",
+    "category": "snack",
+    "calories": 450
+  },
+  {
+    "name": "fegato",
+    "rating": "buono",
+    "notes": "(es. vitello) Ricchissimo di ferro e vitamine, moderare.",
+    "category": "proteine",
+    "calories": 135
+  },
+  {
+    "name": "anatra",
+    "rating": "buono",
+    "notes": "Carne più grassa del pollo, saporita (petto senza pelle, arrosto).",
+    "category": "proteine",
+    "calories": 200
+  },
+  {
+    "name": "coniglio",
+    "rating": "buono",
+    "notes": "Carne magra, proteine di qualità (crudo).",
+    "category": "proteine",
+    "calories": 136
+  },
+  {
+    "name": "quaglia",
+    "rating": "buono",
+    "notes": "Piccola, carne magra e saporita (cruda).",
+    "category": "proteine",
+    "calories": 134
+  },
+  {
+    "name": "gorgonzola",
+    "rating": "buono",
+    "notes": "Formaggio erborinato, grasso e saporito.",
+    "category": "latticini",
+    "calories": 350
+  },
+  {
+    "name": "brie",
+    "rating": "buono",
+    "notes": "Formaggio a pasta molle, grasso.",
+    "category": "latticini",
+    "calories": 334
+  },
+  {
+    "name": "emmental",
+    "rating": "buono",
+    "notes": "Formaggio svizzero, semiduro, calorico.",
+    "category": "latticini",
+    "calories": 380
+  },
+  {
+    "name": "hummus",
+    "rating": "buono",
+    "notes": "Crema di ceci e tahini, proteine e grassi sani.",
+    "category": "legumi/condimenti",
+    "calories": 170
+  },
+  {
+    "name": "olive",
+    "rating": "buono",
+    "notes": "Grassi monoinsaturi, calorie (media verdi/nere).",
+    "category": "grassi sani",
+    "calories": 130
+  },
+  {
+    "name": "edamame",
+    "rating": "buono",
+    "notes": "(Fagioli di soia) Proteine vegetali complete, fibre (cotti).",
+    "category": "legumi",
+    "calories": 121
+  },
+  {
+    "name": "cachi",
+    "rating": "buono",
+    "notes": "Frutto dolce, zuccheri e fibre.",
+    "category": "frutta",
+    "calories": 70
+  },
+  {
+    "name": "farina di castagne",
+    "rating": "buono",
+    "notes": "Senza glutine, carboidrati complessi, dolce.",
+    "category": "cereali/tuberi",
+    "calories": 369
+  },
+  {
+    "name": "kamut",
+    "rating": "buono",
+    "notes": "(Grano khorasan) Cereale antico, proteine e fibre (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 337
+  },
+  {
+    "name": "farro monococco",
+    "rating": "buono",
+    "notes": "Cereale antico, più digeribile, nutriente (crudo).",
+    "category": "cereali/tuberi",
+    "calories": 350
+  },
+  {
+    "name": "ghee",
+    "rating": "ottimo",
+    "notes": "(Burro chiarificato) Grasso puro, senza lattosio/caseina, sapore intenso.",
+    "category": "grassi sani",
+    "calories": 900
+  },
+  {
+    "name": "olio di avocado",
+    "rating": "ottimo",
+    "notes": "Grassi monoinsaturi, simile all'olio evo.",
+    "category": "grassi sani",
+    "calories": 884
+  },
+  {
+    "name": "semi di canapa",
+    "rating": "ottimo",
+    "notes": "Proteine complete, Omega-3 e 6 (decorticati).",
+    "category": "semi",
+    "calories": 553
+  },
+  {
+    "name": "latte intero in polvere",
+    "rating": "ottimo",
+    "notes": "Concentrato di nutrienti e calorie, da aggiungere a bevande/cibi.",
+    "category": "latticini",
+    "calories": 496
+  },
+  {
+    "name": "smoothie",
+    "rating": "buono",
+    "notes": "(Frullato) Modo facile per aggiungere calorie/nutrienti (frutta, yogurt, semi, ecc.). Calorie molto variabili.",
+    "category": "bevande/snack",
+    "calories": 150
+  },
+  {
+    "name": "cavolo nero",
+    "rating": "buono",
+    "notes": "Ricco di vitamine (K, A, C) e minerali (crudo).",
+    "category": "verdura",
+    "calories": 49
+  },
+  {
+    "name": "pastinaca",
+    "rating": "buono",
+    "notes": "Radice dolce, carboidrati e fibre (cruda).",
+    "category": "verdura",
+    "calories": 75
+  },
+  {
+    "name": "sedano rapa",
+    "rating": "buono",
+    "notes": "Radice aromatica, fibre (crudo).",
+    "category": "verdura",
+    "calories": 42
   },
   {
     "name": "mela",
